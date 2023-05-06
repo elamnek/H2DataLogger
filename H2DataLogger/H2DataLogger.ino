@@ -45,7 +45,7 @@ void loop() {
 	state.depth = 55.00;
 	state.xPos = 22.00;
 
-	//log to sdcard and retrive the logged string
+	//log to sdcard and retrieve the logged string
 	String strLogLine = DTlog.logState(&state, LOG_DEPTH + LOG_POSITION + LOG_ATT);
 	Serial.println(strLogLine);
 
