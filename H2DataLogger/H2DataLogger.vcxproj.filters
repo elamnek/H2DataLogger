@@ -21,9 +21,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="H2DataLogger.ino" />
+    <ClCompile Include="sdcard_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.H2DataLogger.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdcard_logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
